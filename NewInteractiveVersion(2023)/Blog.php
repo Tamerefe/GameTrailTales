@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="en" class="page">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
-  <link rel="stylesheet" href="Tiss.css">
+  <link rel="stylesheet" type="text/css" href="Tiss.css"/> 
+  <link rel="icon" type="image/x-icon" href="Photo/dudtled.png">
 
   <title>Dolliet</title>
 
@@ -21,21 +22,21 @@
       </button>
       <div id="NCollapse" class="collapse navbar-collapse">
         <ul class="navbar-nav font-weight-bold">
-          <li class="active"><a class="nav-link text-dark" href="#home">Home</a></li>
-          <li class="nav-item"><a class="nav-link text-dark" href="#news">News</a></li>
-          <li class="nav-item"><a class="nav-link text-dark" href="#reviews">Reviews</a></li>
+          <li class="active"><a class="nav-link text-dark" href="Blog.php#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="Blog.php#news">News</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="Blog.php#reviews">Reviews</a></li>
           <li class="nav-item"><a class="nav-link text-dark" data-toggle="modal" data-target="#modall" href="#wikis">Wikis</a></li>
           <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle text-dark" href="#" data-toggle="dropdown">More</a>
-          <div class="dropdown-menu bg-light">
-            <a class="dropdown-item text-dark" href="#more">Forum</a>
-            <a class="dropdown-item text-dark" href="#more">Best Of</a>
-            <a class="dropdown-item text-dark" href="#more">E-spor</a>
-          </div>
+            <a class="nav-link dropdown-toggle text-dark" href="#" data-toggle="dropdown">More</a>
+            <div class="dropdown-menu bg-light">
+              <a class="dropdown-item text-dark" href="#more">Forum</a>
+              <a class="dropdown-item text-dark" href="#more">Best Of</a>
+              <a class="dropdown-item text-dark" href="#more">E-spor</a>
+            </div>
           </li>
         </ul>
       </div>
-      <a class="dropdown-item" href="LoginPage.html">
+      <a class="text-dark" href="LoginPage.php">
         <i class="fas fa-fingerprint"></i>
       </a>
     </div>
@@ -60,7 +61,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100 rounded" src="rdr2.png">
+            <img class="d-block w-100 rounded" src="Photo/rdr2.png">
             <div class="carousel-caption">
               <h2 class="text-left">Bounty Hunting and Showdown Mode Bonuses</h2>
               <p class="text-left pl-2">Plus Discounts on Bounty Hunting Essentials and More. Get Extra XP in All Bounty Missions. Plus 50% XP Boost in all Showdown Modes. Bonuses and Benefits. Including Bounty Hunting Essentials <a href="#" style="text-decoration: none;" class="text-light font-weight-bold">More...</a></p>
@@ -398,7 +399,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6 mt-5">
-        <a href="reviews1.html" class="text-warning" style="text-decoration:none;">
+        <a href="reviews1.php" class="text-warning" style="text-decoration:none;">
           <img src="Photo/witcher.jpg" alt="Lights" style="width:100%" height="300px">
           <div class="card-img-overlay"><h4 class="card-title text-warning ml-3">93/100 <i class="fas fa-trophy"></i></h4></div>
           <div class="caption">
@@ -407,7 +408,7 @@
         </a>
       </div>
       <div class="col-md-6 mt-5">
-        <a href="reviews2.html"class="text-warning" style="text-decoration:none;">
+        <a href="reviews2.php"class="text-warning" style="text-decoration:none;">
           <img src="Photo/wd2.jpg" alt="Lights" height="300px" style="width:100%">
           <div class="card-img-overlay"><h4 class="card-title text-warning ml-3">83/100 <i class="fas fa-trophy"></i></h4></div>
           <div class="caption">
@@ -416,7 +417,7 @@
         </a>
       </div>
       <div class="col-md-6 mt-3">
-        <a href="reviews3.html"class="text-warning" style="text-decoration:none;">
+        <a href="reviews3.php"class="text-warning" style="text-decoration:none;">
           <img src="Photo/dl.jpg" alt="Lights" height="300px" style="width:100%">
           <div class="card-img-overlay"><h4 class="card-title text-warning ml-3">90/100 <i class="fas fa-trophy"></i></h4></div>
           <div class="caption">
@@ -425,7 +426,7 @@
         </a>
       </div>
       <div class="col-md-6 mt-3">
-        <a href="reviews4.html"class="text-warning" style="text-decoration:none;">
+        <a href="reviews4.php"class="text-warning" style="text-decoration:none;">
           <img src="Photo/ut.png" alt="Lights" height="300px" style="width:100%">
           <div class="card-img-overlay"><h4 class="card-title text-warning ml-3">100/100 <i class="fas fa-trophy"></i></h4></div>
           <div class="caption">

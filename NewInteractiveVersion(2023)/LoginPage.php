@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="page">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
   <link rel="stylesheet" href="Tiss.css">
+  <link rel="icon" type="image/x-icon" href="Photo/dudtled.png">
 
 </head>
 <body class="page" data-spy="scroll" data-target=".navbar" onload="startTime()">
@@ -19,9 +20,9 @@
             </button>
             <div id="NCollapse" class="collapse navbar-collapse">
             <ul class="navbar-nav font-weight-bold">
-                <li class="active"><a class="nav-link text-dark" href="#home">Home</a></li>
-                <li class="nav-item"><a class="nav-link text-dark" href="#news">News</a></li>
-                <li class="nav-item"><a class="nav-link text-dark" href="#reviews">Reviews</a></li>
+                <li class="active"><a class="nav-link text-dark" href="Blog.php#home">Come Back Home </a></li>
+                <li class="nav-item"><a class="nav-link text-dark" href="Blog.php#news">News</a></li>
+                <li class="nav-item"><a class="nav-link text-dark" href="Blog.php#reviews">Reviews</a></li>
                 <li class="nav-item"><a class="nav-link text-dark" data-toggle="modal" data-target="#modall" href="#wikis">Wikis</a></li>
                 <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle text-dark" href="#" data-toggle="dropdown">More</a>
@@ -33,7 +34,7 @@
                 </li>
             </ul>
             </div>
-            <a class="dropdown-item" href="LoginPage.html">
+            <a class="text-dark" href="LoginPage.php">
             <i class="fas fa-fingerprint"></i>
             </a>
         </div>
@@ -42,16 +43,10 @@
     <div class="container mt-5 pt-5">
       <div class="wrap d-md-flex">
         <img class="w-50" src="Photo/bf5.jpg" alt="">
-        <div class="login-wrap p-4 p-md-5">
+        <div class="p-4 p-md-5">
           <div class="d-flex">
             <div class="w-100">
-              <h3 class="mb-4">Sign In</h3>
-            </div>
-            <div class="w-100">
-              <p class="social-media d-flex justify-content-end">
-                <a href="#" class="social-icon d-flex align-items-center justify-content-center"><span class="fa fa-facebook"></span></a>
-                <a href="#" class="social-icon d-flex align-items-center justify-content-center"><span class="fa fa-twitter"></span></a>
-              </p>
+              <h3 class="mb-4" style="text-align: end;">Sign In</h3>
             </div>
           </div>
           <form action="#" class="signin-form">
@@ -67,13 +62,13 @@
               <button type="submit" class="form-control btn btn-primary rounded submit px-3">Sign In</button>
             </div>
             <div class="form-group d-md-flex">
-              <div class="w-50 text-left">
+              <div class="w-75 text-left">
                 <label class="checkbox-wrap checkbox-primary mb-0">Remember Me
                 <input type="checkbox" checked>
                 <span class="checkmark"></span>
                 </label>
               </div>
-              <div class="w-50 text-md-right">
+              <div class="w-25 text-md-right">
                 <a href="#">Forgot Password</a>
               </div>
             </div>

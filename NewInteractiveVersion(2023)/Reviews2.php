@@ -1,50 +1,53 @@
 <!DOCTYPE html>
-<html lang="en" class="page">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
   <link rel="stylesheet" href="Tiss.css">
+  <link rel="icon" type="image/x-icon" href="Photo/dudtled.png">
 
   <title>Dolliet</title>
 
 </head>
-<body data-spy="scroll" data-target=".navbar" class="page">
 
-  <body data-spy="scroll" data-target=".navbar">
+  <body data-spy="scroll" data-target=".navbar" class="page">
 
-    <nav class="navbar navbar-expand-sm fixed-top bg-light navbar-light">
-        <div class="container">
-          <a class="navbar-brand text-dark" href="#"><i class="fas fa-hand-lizard"></i></a>
-          <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#NCollapse">
-            <i class="fas fa-crosshairs"></i>
-          </button>
-            <div id="NCollapse" class="collapse navbar-collapse">
-              <ul class="navbar-nav font-weight-bold">
-                <li class="active"><a class="nav-link text-dark" href="blog.html">Come Back Home <i class="fas fa-hand-holding"></i></a></li>
-                <li class="nav-item"><a class="nav-link text-dark" href="#news">News</a></li>
-                <li class="nav-item"><a class="nav-link text-dark" href="#reviews1">Current Reviews</a></li>
-                <li class="nav-item"><a class="nav-link text-dark" data-toggle="modal" data-target="#modall" href="#wikis">Wikis</a></li>
-                <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-dark" href="#" data-toggle="dropdown">More</a>
-                <div class="dropdown-menu bg-light">
-                  <a class="dropdown-item text-dark" href="#more">Forum</a>
-                  <a class="dropdown-item text-dark" href="#more">Best Of</a>
-                  <a class="dropdown-item text-dark" href="#more">E-spor</a>
-                </div>
-                </li>
-              </ul>
+  <nav class="navbar navbar-expand-sm fixed-top bg-light navbar-light">
+    <div class="container">
+      <a class="navbar-brand text-dark" href="#"><i class="fas fa-hand-lizard"></i></a>
+      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#NCollapse">
+        <i class="fas fa-crosshairs"></i>
+      </button>
+        <div id="NCollapse" class="collapse navbar-collapse">
+          <ul class="navbar-nav font-weight-bold">
+            <li class="active"><a class="nav-link text-dark" href="Blog.php">Come Back Home <i class="fas fa-hand-holding"></i></a></li>
+            <li class="nav-item"><a class="nav-link text-dark" href="Blog.php#news">News</a></li>
+            <li class="nav-item"><a class="nav-link text-dark" href="Blog.php#reviews1">Current Reviews</a></li>
+            <li class="nav-item"><a class="nav-link text-dark" data-toggle="modal" data-target="#modall" href="#wikis">Wikis</a></li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-dark" href="#" data-toggle="dropdown">More</a>
+            <div class="dropdown-menu bg-light">
+              <a class="dropdown-item text-dark" href="#more">Forum</a>
+              <a class="dropdown-item text-dark" href="#more">Best Of</a>
+              <a class="dropdown-item text-dark" href="#more">E-spor</a>
             </div>
-          </div>
+            </li>
+          </ul>
+        </div>
+        <a class="text-dark" href="LoginPage.php">
+          <i class="fas fa-fingerprint"></i>
+        </a>
+      </div>
     </nav>
 
   <header class="page">
     <div class="col-md-11 mx-auto mt-5 pt-4">
-        <img class="w-100 rounded" src="witcher.jpg">
+        <img class="w-100 rounded" src="wd2.jpg">
         <div class="carousel-caption">
-          <h2 class="text-left">The Witcher® 3: Wild Hunt Detailed Examination Or Analysis</h2>
+          <h2 class="text-left">Watch_Dogs® 2 Detailed Examination Or Analysis</h2>
         </div>
     </div>
   </header>
@@ -93,13 +96,13 @@
                     <i class="fas fa-times text-danger"></i> Good. <br>
                     <i class="fas fa-check text-success"></i> Beautiful. <br>
                     <i class="fas fa-times text-danger"></i> Masterpiece. <br>
-                    <i class="fas fa-times text-danger"></i> You forget reality. <br>
+                    <i class="fas fa-times text-danger"></i> You forget reality <br>
                   </p>
                   <h3>Price:</h3>
                   <p>
-                    <i class="fas fa-check text-success"></i> Just buy it. <br>
+                    <i class="fas fa-times text-danger"></i> Just buy it <br>
                     <i class="fas fa-times text-danger"></i> Full Price. <br>
-                    <i class="fas fa-times text-danger"></i> Wait For Discount. <br>
+                    <i class="fas fa-check text-success"></i> Wait For Discount. <br>
                     <i class="fas fa-times text-danger"></i> Refund It If You Can. <br>
                     <i class="fas fa-times text-danger"></i> Don't Buy It. <br>
                     <i class="fas fa-times text-danger"></i> Free. <br>
@@ -118,9 +121,9 @@
                   <h3>Difficulty:</h3>
                   <p>
                     <i class="fas fa-times text-danger"></i> Easy. <br>
-                    <i class="fas fa-times text-danger"></i> Medium. <br>
+                    <i class="fas fa-check text-success"></i> Medium. <br>
                     <i class="fas fa-times text-danger"></i> Hard. <br>
-                    <i class="fas fa-check text-success"></i> Easy to learn / Hard to master. <br>
+                    <i class="fas fa-times text-danger"></i> Easy to learn / Hard to master. <br>
                     <i class="fas fa-times text-danger"></i> Very Hard. <br>
                     <i class="fas fa-times text-danger"></i> Death March. <br>
                     <i class="fas fa-times text-danger"></i> Dark Souls. <br>
@@ -140,19 +143,19 @@
                     <i class="fas fa-times text-danger"></i> It Doesn't Have One. <br>
                     <i class="fas fa-times text-danger"></i> Horrible. <br>
                     <i class="fas fa-times text-danger"></i> Meh. <br>
-                    <i class="fas fa-times text-danger"></i> Ok. <br>
+                    <i class="fas fa-check text-success"></i> Ok. <br>
                     <i class="fas fa-times text-danger"></i> Average. <br>
                     <i class="fas fa-times text-danger"></i> Good. <br>
                     <i class="fas fa-times text-danger"></i> Fantastic. <br>
-                    <i class="fas fa-check text-success"></i> Will make you cry or smile a lot. <br>
+                    <i class="fas fa-times text-danger"></i> Will make you cry or smile a lot. <br>
                   </p>
                   <h3>Music/Sound:</h3>
                   <p>
                     <i class="fas fa-times text-danger"></i> Horrible. <br>
-                    <i class="fas fa-times text-danger"></i> Decent. <br>
+                    <i class="fas fa-check text-success"></i> Decent. <br>
                     <i class="fas fa-times text-danger"></i> Average. <br>
                     <i class="fas fa-times text-danger"></i> Good. <br>
-                    <i class="fas fa-check text-success"></i> Amazing. <br>
+                    <i class="fas fa-times text-danger"></i> Amazing. <br>
                   </p>
                   <h3>Gameplay:</h3>
                   <p>
@@ -161,40 +164,40 @@
                     <i class="fas fa-times text-danger"></i> Ok. <br>
                     <i class="fas fa-times text-danger"></i> Average. <br>
                     <i class="fas fa-times text-danger"></i> Good. <br>
-                    <i class="fas fa-times text-danger"></i> Fantastic. <br>
-                    <i class="fas fa-check text-success"></i> Try not to get addicted. <br>
+                    <i class="fas fa-check text-success"></i> Fantastic. <br>
+                    <i class="fas fa-times text-danger"></i> Try not to get addicted. <br>
                   </p>
                   <h3>Bugs:</h3>
                   <p>
                     <i class="fas fa-times text-danger"></i> Game Itself Is One Big BUG. <br>
                     <i class="fas fa-times text-danger"></i> Game Breaking Bugs. <br>
                     <i class="fas fa-times text-danger"></i> Lots of bugs. <br>
-                    <i class="fas fa-times text-danger"></i> Can get annoying. <br>
-                    <i class="fas fa-check text-success"></i> Few Bugs. <br>
+                    <i class="fas fa-check text-success"></i> Can get annoying. <br>
+                    <i class="fas fa-times text-danger"></i> Few Bugs. <br>
                     <i class="fas fa-times text-danger"></i> Nothing. <br>
                   </p>
                   <h3>Final:</h3>
                   <p>
                     <i class="fas fa-times text-danger"></i> Terrible. <br>
                     <i class="fas fa-times text-danger"></i> Meh. <br>
-                    <i class="fas fa-times text-danger"></i> Ok. <br>
+                    <i class="fas fa-check text-success"></i> Ok. <br>
                     <i class="fas fa-times text-danger"></i> Average. <br>
                     <i class="fas fa-times text-danger"></i> Good. <br>
                     <i class="fas fa-times text-danger"></i> Great. <br>
                     <i class="fas fa-times text-danger"></i> Fantastic. <br>
-                    <i class="fas fa-check text-success"></i> ... <br>
+                    <i class="fas fa-times text-danger"></i> ... <br>
                   </p>
                   <p>Best RPG of 2015 and probably of the decade. If you haven't played it yet, do yourself a favor and give it a shot.</p>
                   <h3>Others:</h3>
                   <p>
-                    Multiplayer: <i class="fas fa-times text-danger"></i> <br>
+                    Multiplayer: <i class="fas fa-check text-success"></i> <br>
                     Singleplayer: <i class="fas fa-check text-success"></i> <br>
                   </p>
                   <h3>Final Score:</h3>
                   <br>
-                    <h4 class="text-warning">93/100 <i class="fas fa-trophy"></i></h4>
+                    <h4 class="text-warning">83/100 <i class="fas fa-trophy"></i></h4>
                   <br>
-                <div class="d-inline cardfooter text-muted">Posted On 3/7/20</div>
+                <div class="d-inline cardfooter text-muted">Posted On 3/8/20</div>
               </div>
           </div>
 
@@ -370,7 +373,6 @@
 
  <a href="#collapse" data-toggle="collapse"><i class="fas fa-angle-double-down tx-wt chan4"></i></a>
 </footer>
-
 
 <script  src="Kiss.js" type="text/Javascript"></script>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
