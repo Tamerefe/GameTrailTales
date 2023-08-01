@@ -1,6 +1,3 @@
-
-
-
 $(document).ready(function(){
     $("#exit1").click(function(){
 		$(".games1").hide();
@@ -183,4 +180,18 @@ $(document).ready(function(){
 			});	
 		});	
 	});	
+});
+
+// 2023
+
+setTimeout(function(){
+	document.querySelector('.stickybuttons').style.display = "flex";
+}, 500);
+
+document.querySelector('.stickybuttons').addEventListener('click', function() {
+	document.querySelector(".stickybuttons").style.display = "none";
+});
+
+document.querySelector('#hcx').addEventListener('click', function() {
+	document.querySelector(".stickybuttons").style.display = "none";
 });

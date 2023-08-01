@@ -53,9 +53,28 @@
   }
   										/* Rainbow End */
 
-html {
+body {
 	font-size: 16px;
 	background-color: #ededed;
+}
+
+.stickybuttons {
+	position: fixed;
+	bottom: 1rem;
+	right: 1rem;
+	color: #FFF;
+	transition: all .5s;
+	z-index: 100;
+	display: none;
+	margin: auto;
+}
+
+.dot {
+	height: 4rem;
+	width: 4rem;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
 }
 
 .navbar{

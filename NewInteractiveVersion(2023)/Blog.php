@@ -42,6 +42,11 @@
     </div>
   </nav>
 
+  <div class="stickybuttons mousePointer">
+      <img src="Photo/help.png" width="75px;" height="75px;">
+    <span id="hcx" class="close" style="font-size: 1rem;">X</span>
+  </div>
+
   <header id="home">
     <div class="col-md-11 mx-auto">
       <div id="slider" class="carousel slide mt-5 pt-4" data-ride="carousel">
@@ -98,7 +103,6 @@
       </div>
     </div>
   </header>
-
                   <!-- MODAL -->
 	<div class="modal fade" id="modall">
 		<div class="modal-dialog modal-sm modal-dialog-centered">
