@@ -188,7 +188,7 @@
           <div class="btn-success py-2 disabled">
             <h4 class="text-center text-weight-bold">Platforms <i class="fas fa-charging-station"></i></h4>
           </div>
-          <div class="card-body bg-bt" style="padding-right: 0px;margin-left: 1.25rem;margin-right: 1.25rem;padding-left: 0.75rem;">
+          <div class="card-body bg-bt" style="padding-right: 0px;margin-left: 0.6rem;margin-right: 0.6rem;">
             <i class="fab fa-steam navbar-brand mousePointer steam"></i>
             <i class="fab fa-xbox navbar-brand mousePointer xbox"></i>
             <i class="fab fa-playstation navbar-brand mousePointer playstation"></i>

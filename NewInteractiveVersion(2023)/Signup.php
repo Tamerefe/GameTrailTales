@@ -42,11 +42,11 @@
 
     <div class="container mt-5 pt-5 sign">
       <div class="wrap d-md-flex">
-        <img class="w-50" src="Photo/war.jpg" alt="">
+        <img class="w-50" src="Photo/bf5.jpg" alt="">
         <div class="p-4 p-md-5">
           <div class="d-flex">
             <div class="w-100">
-              <h3 class="mb-4" style="text-align: end;">Sign In</h3>
+              <h3 class="mb-4" style="text-align: end;">Sign Up</h3>
             </div>
           </div>
           <form action="#" class="signin-form">
@@ -55,25 +55,18 @@
               <input type="text" class="form-control" placeholder="Username" required>
             </div>
             <div class="form-group mb-3">
+              <label class="label" for="email">E-mail</label>
+              <input type="text" class="form-control" placeholder="Email" required>
+            </div>
+            <div class="form-group mb-3">
               <label class="label" for="password">Password</label>
               <input type="password" class="form-control" placeholder="Password" required>
             </div>
             <div class="form-group">
-              <button type="submit" class="form-control btn btn-warning rounded submit px-3">Sign In</button>
-            </div>
-            <div class="form-group d-md-flex">
-              <div class="w-75 text-left">
-                <label class="checkbox-wrap checkbox-primary mb-0">Remember Me
-                <input type="checkbox" checked>
-                <span class="checkmark"></span>
-                </label>
-              </div>
-              <div class="w-25 text-md-right">
-                <a href="PswRst.php">Forgot Password</a>
-              </div>
+              <button type="submit" class="form-control btn btn-warning rounded submit px-3">Sign Up</button>
             </div>
           </form>
-          <p class="text-center">Not a member? <a href="Signup.php">Sign Up</a></p>
+          <p class="text-center">You are a member? <a href="LoginPage.php">Sign In</a></p>
         </div>
       </div>
     </div>

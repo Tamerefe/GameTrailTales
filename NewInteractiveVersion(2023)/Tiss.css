@@ -1,5 +1,5 @@
 /* Google font */
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Modak&family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Itim&family=Modak&family=Orbitron&display=swap');
 
 #clock {
   font-family: 'Orbitron', sans-serif;
@@ -59,7 +59,11 @@ html {
 }
 
 .navbar{
-	opacity: 0.8;
+	opacity: 0.9;
+}
+
+.sign{
+	font-family: 'Itim', cursive;
 }
 
 .page{
