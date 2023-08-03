@@ -265,58 +265,57 @@
             <h4 class="text-center">News <i class="fas fa-newspaper"></i></h4>
           </div>
           <div class="row mt-3">
-      			<div class="col-5 "><img src="f76.jpg" class="img-thumbnail" alt=""></div>
-      			<div class="col-7 "><a style="text-decoration:none;" class="yazi font-weight-bold" href="#">Watch Fallout 76 Wastelander Gameplay in Action</a>
+      			<div class="col-5 "><img src="Photo/hades.jpg" class="img-thumbnail" alt=""></div>
+      			<div class="col-7 "><a style="text-decoration:none;" class="yazi font-weight-bold" href="#">Hades Player Completes Challenge Thought To Be Impossible</a>
       				</div>
             </div>
             <div class="row mt-3">
-              <div class="col-5 "><img src="pokemon.jpg" class="img-thumbnail" alt=""></div>
-              <div class="col-7 "><a style="text-decoration:none;" class="yazi font-weight-bold" href="#">Armored Mewtwo Pokemon Go: Counters, Raid Tips, And How To Catch</a>
+              <div class="col-5 "><img src="Photo/pokemon.jpg" class="img-thumbnail" alt=""></div>
+              <div class="col-7 "><a style="text-decoration:none;" class="yazi font-weight-bold" href="#">Pokémon Go Fest 2023: Dates, times & details for London event</a>
     				</div>
             </div>
             <div class="row mt-3">
-              <div class="col-5 "><img src="codz.jpg" class="img-thumbnail" alt=""></div>
-              <div class="col-7 "><a style="text-decoration:none;" class="yazi font-weight-bold" href="#">Call of Duty zombies mode director Jason Blundell leaves Treyarch</a>
+              <div class="col-5 "><img src="Photo/mrbeast.png" class="img-thumbnail" alt=""></div>
+              <div class="col-7 "><a style="text-decoration:none;" class="yazi font-weight-bold" href="#">Mr. Beast Responds To Criticism About Promoting TMNT During The Actors' Strike</a>
     				</div>
             </div>
             <div class="row mt-3">
-              <div class="col-5 "><img src="hzd.jpeg" class="img-thumbnail" alt=""></div>
-              <div class="col-7 "><a style="text-decoration:none;" class="yazi font-weight-bold" href="#">Horizon: Zero Dawn for PC appears on Amazon</a>
+              <div class="col-5 "><img src="Photo/ac.jpg" class="img-thumbnail" alt=""></div>
+              <div class="col-7 "><a style="text-decoration:none;" class="yazi font-weight-bold" href="#">Assassin's Creed Jade Gameplay Revealed</a>
     				</div>
             </div>
             <div class="row mt-3">
-              <div class="col-5 "><img src="scgc.jpg" class="img-thumbnail" alt=""></div>
-              <div class="col-7 "><a style="text-decoration:none;" class="yazi font-weight-bold" href="#">Here's how Star Citizen is planning to implement survival mechanics</a>
+              <div class="col-5 "><img src="Photo/rmnt.jpg" class="img-thumbnail" alt=""></div>
+              <div class="col-7 "><a style="text-decoration:none;" class="yazi font-weight-bold" href="#">Remnant 2 Players Voice Concerns About the Game’s Difficulty Scaling</a>
     				</div>
             </div>
             <div class="row mt-3">
-              <div class="col-5 "><img src="dc.jpg" class="img-thumbnail" alt=""></div>
-              <div class="col-7 "><a style="text-decoration:none;" class="yazi font-weight-bold" href="#">Dead Cells – 1.7.0 Patch Notes | The Bad Seed</a>
+              <div class="col-5 "><img src="Photo/meganfoxdiablo.png" class="img-thumbnail" alt=""></div>
+              <div class="col-7 "><a style="text-decoration:none;" class="yazi font-weight-bold" href="#">Blizzard's paying Megan Fox to eulogise Diablo 4 deaths in a corset</a>
     				</div>
             </div>
             <div class="row mt-3">
-              <div class="col-5 "><img src="lol.jpg" class="img-thumbnail" alt=""></div>
-              <div class="col-7 "><a style="text-decoration:none;" class="yazi font-weight-bold" href="#">Riot Games’ new tactical shooter is titled Valorant, alleges report</a>
+              <div class="col-5 "><img src="Photo/ffpxel.png" class="img-thumbnail" alt=""></div>
+              <div class="col-7 "><a style="text-decoration:none;" class="yazi font-weight-bold" href="#">Final Fantasy 14 Dev Wants to Add the Pixel Remaster Games to the Gold Saucer</a>
     				</div>
             </div>
             <div class="row mt-3">
-              <div class="col-5 "><img src="pubg.jpg" class="img-thumbnail" alt=""></div>
-              <div class="col-7 "><a style="text-decoration:none;" class="yazi font-weight-bold" href="#">PUBG Corp addresses cheaters, DDoS attacks, and performance problems</a>
+              <div class="col-5 "><img src="Photo/owervatc.png" class="img-thumbnail" alt=""></div>
+              <div class="col-7 "><a style="text-decoration:none;" class="yazi font-weight-bold" href="#">An Overwatch 2 and Team Fortress 2 Collaboration is Happening, But Not in The Way You'd Expect</a>
     				</div>
             </div>
             <div class="row mt-3">
-              <div class="col-5 "><img src="payday.jpg" class="img-thumbnail" alt=""></div>
-              <div class="col-7 "><a style="text-decoration:none;" class="yazi font-weight-bold" href="#">Payday 2’s San Martín Bank Heist is available now</a>
+              <div class="col-5 "><img src="Photo/payday.jpg" class="img-thumbnail" alt=""></div>
+              <div class="col-7 "><a style="text-decoration:none;" class="yazi font-weight-bold" href="#">Payday 3 Will Utilize Controversial Anti-Tamper Technology</a>
     				</div>
             </div>
             <div class="row mt-3">
-              <div class="col-5 "><img src="xbox.jpg" class="img-thumbnail" alt=""></div>
-              <div class="col-7 "><a style="text-decoration:none;" class="yazi font-weight-bold" href="#">Xbox Series X will use audio ray tracing for super-realistic soundscapes</a>
+              <div class="col-5 "><img src="Photo/xbox.jpg" class="img-thumbnail" alt=""></div>
+              <div class="col-7 "><a style="text-decoration:none;" class="yazi font-weight-bold" href="#">Control Developer Explains Why Xbox Series S Is a Problem for Devs</a>
     				</div>
             </div>
-
-
           </div>
+
         </div>
       </div>
     </div>

@@ -61,8 +61,8 @@
           <div class="carousel-item active">
             <img class="d-block w-100 rounded" src="Photo/rdr2.png">
             <div class="carousel-caption">
-              <h2 class="text-left">Bounty Hunting and Showdown Mode Bonuses</h2>
-              <p class="text-left pl-2">Plus Discounts on Bounty Hunting Essentials and More. Get Extra XP in All Bounty Missions. Plus 50% XP Boost in all Showdown Modes. Bonuses and Benefits. Including Bounty Hunting Essentials <a href="#" style="text-decoration: none;" class="text-light font-weight-bold">More...</a></p>
+              <h2 class="text-left">Start the New Year Off with Bonuses on A Land of Opportunities Missions, Call to Arms, Gang Hideouts, and the Featured Series</h2>
+              <p class="text-left pl-2">Plus a Month's Worth of Persistent Posse Rewards in Red Dead Online <a href="#" style="text-decoration: none;" class="text-light font-weight-bold">More...</a></p>
             </div>
           </div>
           <div class="carousel-item">
@@ -197,16 +197,16 @@
             <h4 class="text-center text-weight-bold">Platforms <i class="fas fa-charging-station"></i></h4>
           </div>
           <div class="card-body bg-bt" style="padding-right: 0px;margin-left: 0.6rem;margin-right: 0.6rem;">
-            <i class="fab fa-steam navbar-brand mousePointer steam"></i>
-            <i class="fab fa-xbox navbar-brand mousePointer xbox"></i>
-            <i class="fab fa-playstation navbar-brand mousePointer playstation"></i>
-            <i class="fab fa-twitch navbar-brand mousePointer twitch"></i>
-            <i class="fab fa-youtube navbar-brand mousePointer youtube"></i>
-            <i class="fab fa-instagram navbar-brand mousePointer instagram"></i>
-            <i class="fab fa-facebook navbar-brand mousePointer facebook"></i>
-            <i class="fab fa-discord navbar-brand mousePointer discord"></i>
-            <i class="fab fa-twitter navbar-brand mousePointer twitter"></i>
-            <i class="fab fa-telegram-plane navbar-brand mousePointer telegram"></i>
+            <a href=""><i class="fab fa-steam navbar-brand mousePointer steam"></i></a>
+            <i class="fab fa-xbox navbar-brand mousePointer xbox"></i></a>
+            <i class="fab fa-playstation navbar-brand mousePointer playstation"></i></a>
+            <i class="fab fa-twitch navbar-brand mousePointer twitch"></i></a>
+            <i class="fab fa-youtube navbar-brand mousePointer youtube"></i></a>
+            <i class="fab fa-instagram navbar-brand mousePointer instagram"></i></a>
+            <i class="fab fa-facebook navbar-brand mousePointer facebook"></i></a>
+            <i class="fab fa-discord navbar-brand mousePointer discord"></i></a>
+            <i class="fab fa-twitter navbar-brand mousePointer twitter"></i></a>
+            <i class="fab fa-telegram-plane navbar-brand mousePointer telegram"></i></a>
           </div>
           <br>
           <div class="btn-default purple text-light py-2 disabled">
@@ -239,56 +239,57 @@
             <h4 class="text-center">News <i class="fas fa-newspaper"></i></h4>
           </div>
           <div class="row mt-3">
-      			<div class="col-5 "><img src="Photo/f76.jpg" class="img-thumbnail" alt=""></div>
-      			<div class="col-7 "><a style="text-decoration:none;" class="yazi font-weight-bold" href="#">Watch Fallout 76 Wastelander Gameplay in Action</a>
+      			<div class="col-5 "><img src="Photo/hades.jpg" class="img-thumbnail" alt=""></div>
+      			<div class="col-7 "><a style="text-decoration:none;" class="yazi font-weight-bold" href="#">Hades Player Completes Challenge Thought To Be Impossible</a>
       				</div>
             </div>
             <div class="row mt-3">
               <div class="col-5 "><img src="Photo/pokemon.jpg" class="img-thumbnail" alt=""></div>
-              <div class="col-7 "><a style="text-decoration:none;" class="yazi font-weight-bold" href="#">Armored Mewtwo Pokemon Go: Counters, Raid Tips, And How To Catch</a>
+              <div class="col-7 "><a style="text-decoration:none;" class="yazi font-weight-bold" href="#">Pokémon Go Fest 2023: Dates, times & details for London event</a>
     				</div>
             </div>
             <div class="row mt-3">
-              <div class="col-5 "><img src="Photo/codz.jpg" class="img-thumbnail" alt=""></div>
-              <div class="col-7 "><a style="text-decoration:none;" class="yazi font-weight-bold" href="#">Call of Duty zombies mode director Jason Blundell leaves Treyarch</a>
+              <div class="col-5 "><img src="Photo/mrbeast.png" class="img-thumbnail" alt=""></div>
+              <div class="col-7 "><a style="text-decoration:none;" class="yazi font-weight-bold" href="#">Mr. Beast Responds To Criticism About Promoting TMNT During The Actors' Strike</a>
     				</div>
             </div>
             <div class="row mt-3">
-              <div class="col-5 "><img src="Photo/hzd.jpeg" class="img-thumbnail" alt=""></div>
-              <div class="col-7 "><a style="text-decoration:none;" class="yazi font-weight-bold" href="#">Horizon: Zero Dawn for PC appears on Amazon</a>
+              <div class="col-5 "><img src="Photo/ac.jpg" class="img-thumbnail" alt=""></div>
+              <div class="col-7 "><a style="text-decoration:none;" class="yazi font-weight-bold" href="#">Assassin's Creed Jade Gameplay Revealed</a>
     				</div>
             </div>
             <div class="row mt-3">
-              <div class="col-5 "><img src="Photo/scgc.jpg" class="img-thumbnail" alt=""></div>
-              <div class="col-7 "><a style="text-decoration:none;" class="yazi font-weight-bold" href="#">Here's how Star Citizen is planning to implement survival mechanics</a>
+              <div class="col-5 "><img src="Photo/rmnt.jpg" class="img-thumbnail" alt=""></div>
+              <div class="col-7 "><a style="text-decoration:none;" class="yazi font-weight-bold" href="#">Remnant 2 Players Voice Concerns About the Game’s Difficulty Scaling</a>
     				</div>
             </div>
             <div class="row mt-3">
-              <div class="col-5 "><img src="Photo/dc.jpg" class="img-thumbnail" alt=""></div>
-              <div class="col-7 "><a style="text-decoration:none;" class="yazi font-weight-bold" href="#">Dead Cells – 1.7.0 Patch Notes | The Bad Seed</a>
+              <div class="col-5 "><img src="Photo/meganfoxdiablo.png" class="img-thumbnail" alt=""></div>
+              <div class="col-7 "><a style="text-decoration:none;" class="yazi font-weight-bold" href="#">Blizzard's paying Megan Fox to eulogise Diablo 4 deaths in a corset</a>
     				</div>
             </div>
             <div class="row mt-3">
-              <div class="col-5 "><img src="Photo/lol.jpg" class="img-thumbnail" alt=""></div>
-              <div class="col-7 "><a style="text-decoration:none;" class="yazi font-weight-bold" href="#">Riot Games’ new tactical shooter is titled Valorant, alleges report</a>
+              <div class="col-5 "><img src="Photo/ffpxel.png" class="img-thumbnail" alt=""></div>
+              <div class="col-7 "><a style="text-decoration:none;" class="yazi font-weight-bold" href="#">Final Fantasy 14 Dev Wants to Add the Pixel Remaster Games to the Gold Saucer</a>
     				</div>
             </div>
             <div class="row mt-3">
-              <div class="col-5 "><img src="Photo/pubg.jpg" class="img-thumbnail" alt=""></div>
-              <div class="col-7 "><a style="text-decoration:none;" class="yazi font-weight-bold" href="#">PUBG Corp addresses cheaters, DDoS attacks, and performance problems</a>
+              <div class="col-5 "><img src="Photo/owervatc.png" class="img-thumbnail" alt=""></div>
+              <div class="col-7 "><a style="text-decoration:none;" class="yazi font-weight-bold" href="#">An Overwatch 2 and Team Fortress 2 Collaboration is Happening, But Not in The Way You'd Expect</a>
     				</div>
             </div>
             <div class="row mt-3">
               <div class="col-5 "><img src="Photo/payday.jpg" class="img-thumbnail" alt=""></div>
-              <div class="col-7 "><a style="text-decoration:none;" class="yazi font-weight-bold" href="#">Payday 2’s San Martín Bank Heist is available now</a>
+              <div class="col-7 "><a style="text-decoration:none;" class="yazi font-weight-bold" href="#">Payday 3 Will Utilize Controversial Anti-Tamper Technology</a>
     				</div>
             </div>
             <div class="row mt-3">
               <div class="col-5 "><img src="Photo/xbox.jpg" class="img-thumbnail" alt=""></div>
-              <div class="col-7 "><a style="text-decoration:none;" class="yazi font-weight-bold" href="#">Xbox Series X will use audio ray tracing for super-realistic soundscapes</a>
+              <div class="col-7 "><a style="text-decoration:none;" class="yazi font-weight-bold" href="#">Control Developer Explains Why Xbox Series S Is a Problem for Devs</a>
     				</div>
             </div>
           </div>
+
         </div>
       </div>
     </div>
