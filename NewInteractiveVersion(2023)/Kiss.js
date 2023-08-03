@@ -14,8 +14,6 @@ $(document).ready(function(){
 });
 
 
-
-
 									//Clock
 
 function startTime() {
@@ -57,9 +55,10 @@ function startTime() {
 // 	});
 // });
 
-$(document).ready(function(){
-	// FIRST
-	$("i.chan2").click(function(){
+// 2023
+
+$("i.chnclc").click(function(){
+	if( $("i.chnclc").hasClass("chan2")) { 
 		$(".chan2").addClass("fa-toggle-on");
 		$(".chan2").removeClass("fa-toggle-off");
 		$(".chan2").addClass("chan3");
@@ -72,121 +71,51 @@ $(document).ready(function(){
 		$(".text-light").removeClass("text-dark");
 		$(".yazi").addClass("yazi2");
 		$(".yazi2").removeClass("yazi");
-		$(".tx-wt").addClass("tx-bt");
-		$(".tx-bt").removeClass("tx-wt");
+		$(".text-white").addClass("tx-bt");
+		$(".tx-bt").removeClass("text-white");
 		$(".page").addClass("paged");
 		$(".paged").removeClass("page");
 		$(".line").addClass("lineb");
 		$(".lineb").removeClass("line");
-
-		// SECOND
-		$("i.chan3").click(function(){
-			$(".chan3").addClass("fa-toggle-off");
-			$(".chan3").removeClass("fa-toggle-on");
-			$(".chan3").addClass("chan2");
-			$(".chan2").removeClass("chan3");
-			$(".bg-dark").addClass("bg-light");
-			$(".bg-light").removeClass("bg-dark");
-			$(".bg-wt").addClass("bg-bt");
-			$(".bg-bt").removeClass("bg-wt");
-			$(".text-light").addClass("text-dark");
-			$(".text-dark").removeClass("text-light");
-			$(".yazi2").addClass("yazi");
-			$(".yazi").removeClass("yazi2");
-			$(".tx-bt").addClass("tx-wt");
-			$(".tx-wt").removeClass("tx-bt");
-			$(".paged").addClass("page");
-			$(".page").removeClass("paged");
-			$(".lineb").addClass("line");
-			$(".line").removeClass("lineb");
-
-			// THIRD
-			$("i.chan2").click(function(){
-				$(".chan2").addClass("fa-toggle-on");
-				$(".chan2").removeClass("fa-toggle-off");
-				$(".chan2").addClass("chan3");
-				$(".chan3").removeClass("chan2");
-				$(".bg-light").addClass("bg-dark");
-				$(".bg-dark").removeClass("bg-light");
-				$(".bg-bt").addClass("bg-wt");
-				$(".bg-wt").removeClass("bg-bt");
-				$(".text-dark").addClass("text-light");
-				$(".text-light").removeClass("text-dark");
-				$(".yazi").addClass("yazi2");
-				$(".yazi2").removeClass("yazi");
-				$(".tx-wt").addClass("tx-bt");
-				$(".tx-bt").removeClass("tx-wt");
-				$(".page").addClass("paged");
-				$(".paged").removeClass("page");
-				$(".line").addClass("lineb");
-				$(".lineb").removeClass("line");
-		
-				// FOURTH
-				$("i.chan3").click(function(){
-					$(".chan3").addClass("fa-toggle-off");
-					$(".chan3").removeClass("fa-toggle-on");
-					$(".chan3").addClass("chan2");
-					$(".chan2").removeClass("chan3");
-					$(".bg-dark").addClass("bg-light");
-					$(".bg-light").removeClass("bg-dark");
-					$(".bg-wt").addClass("bg-bt");
-					$(".bg-bt").removeClass("bg-wt");
-					$(".text-light").addClass("text-dark");
-					$(".text-dark").removeClass("text-light");
-					$(".yazi2").addClass("yazi");
-					$(".yazi").removeClass("yazi2");
-					$(".tx-bt").addClass("tx-wt");
-					$(".tx-wt").removeClass("tx-bt");
-					$(".paged").addClass("page");
-					$(".page").removeClass("paged");
-					$(".lineb").addClass("line");
-					$(".line").removeClass("lineb");
-				});
-			});	
-		});
-	});	
+	} else { 
+		$(".chan3").addClass("fa-toggle-off");
+		$(".chan3").removeClass("fa-toggle-on");
+		$(".chan3").addClass("chan2");
+		$(".chan2").removeClass("chan3");
+		$(".bg-dark").addClass("bg-light");
+		$(".bg-light").removeClass("bg-dark");
+		$(".bg-wt").addClass("bg-bt");
+		$(".bg-bt").removeClass("bg-wt");
+		$(".text-light").addClass("text-dark");
+		$(".text-dark").removeClass("text-light");
+		$(".yazi2").addClass("yazi");
+		$(".yazi").removeClass("yazi2");
+		$(".tx-bt").addClass("text-white");
+		$(".text-white").removeClass("tx-bt");
+		$(".paged").addClass("page");
+		$(".page").removeClass("paged");
+		$(".lineb").addClass("line");
+		$(".line").removeClass("lineb");
+	} 
 });
 
-
-$(document).ready(function(){
-	//FIRST
-	$("i.chan4").click(function(){
+$("i.btnchn").click(function(){
+	if( $("i.btnchn").hasClass("chan4")) { 
 		$(".chan4").addClass("fa-angle-double-up");
 		$(".chan4").removeClass("fa-angle-double-down");
 		$(".chan4").addClass("chan5");
 		$(".chan5").removeClass("chan4");
-
-		//SECOND
-		$("i.chan5").click(function(){
-			$(".chan5").addClass("fa-angle-double-down");
-			$(".chan5").removeClass("fa-angle-double-up");
-			$(".chan5").addClass("chan4");
-			$(".chan4").removeClass("chan5");
-
-			//THIRD
-			$("i.chan4").click(function(){
-				$(".chan4").addClass("fa-angle-double-up");
-				$(".chan4").removeClass("fa-angle-double-down");
-				$(".chan4").addClass("chan5");
-				$(".chan5").removeClass("chan4");
-		
-				//FORTH
-				$("i.chan5").click(function(){
-					$(".chan5").addClass("fa-angle-double-down");
-					$(".chan5").removeClass("fa-angle-double-up");
-					$(".chan5").addClass("chan4");
-					$(".chan4").removeClass("chan5");
-				});	
-			});	
-		});	
-	});	
+	} else { 
+		$(".chan5").addClass("fa-angle-double-down");
+		$(".chan5").removeClass("fa-angle-double-up");
+		$(".chan5").addClass("chan4");
+		$(".chan4").removeClass("chan5");
+	} 
 });
-
-// 2023
 
 setTimeout(function(){
 	document.querySelector('.stickybuttons').style.display = "flex";
-}, 500);
+}, 50000);
 
 document.querySelector('.stickybuttons').addEventListener('click', function() {
 	document.querySelector(".stickybuttons").style.display = "none";
@@ -195,3 +124,19 @@ document.querySelector('.stickybuttons').addEventListener('click', function() {
 document.querySelector('#hcx').addEventListener('click', function() {
 	document.querySelector(".stickybuttons").style.display = "none";
 });
+
+
+$("i.chan5").click(function(){
+	document.querySelector('#crd1').getElementsByTagName('iframe')[0].src="Photo/bf5.jpg"
+	document.querySelector('#crd1').getElementsByTagName('div')[1].children[0].children[0].innerHTML="ss"
+	document.querySelector('#crd1').getElementsByTagName('div')[1].children[1].innerHTML="aa"
+	document.querySelector('#crd1').getElementsByTagName('div')[1].children[3].innerHTML="bb"
+
+
+
+	document.querySelector('#crd2').getElementsByTagName('iframe')[0].src="Photo/bf5.jpg"
+	document.querySelector('#crd3').getElementsByTagName('iframe')[0].src="Photo/bf5.jpg"
+});	
+
+console.log(document.querySelector('#crd1').getElementsByTagName('div')[1].children[3]);
+

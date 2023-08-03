@@ -22,9 +22,9 @@
       </button>
       <div id="NCollapse" class="collapse navbar-collapse">
         <ul class="navbar-nav font-weight-bold">
-          <li class="active"><a class="nav-link text-dark" href="Blog.php#home">Home</a></li>
-          <li class="nav-item"><a class="nav-link text-dark" href="Blog.php#news">News</a></li>
-          <li class="nav-item"><a class="nav-link text-dark" href="Blog.php#reviews">Reviews</a></li>
+          <li class="active"><a class="nav-link text-dark" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="#news">News</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="#reviews">Reviews</a></li>
           <li class="nav-item"><a class="nav-link text-dark" data-toggle="modal" data-target="#modall" href="#wikis">Wikis</a></li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle text-dark" href="#" data-toggle="dropdown">More</a>
@@ -59,13 +59,6 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="d-block w-100 rounded d-block mx-auto" src="Photo/division2.jpg">
-            <div class="carousel-caption">
-              <h2 class="text-left">Get The Division 2 For 95% Off As Major Expansion Announced</h2>
-              <p class="text-left pl-2">On March 3, Division 2 Agents will enter the new open world of Lower Manhattan in the Warlords of New York expansion <a href="#" style="text-decoration: none;" class="text-light font-weight-bold">More...</a></p>
-            </div>
-          </div>
-          <div class="carousel-item">
             <img class="d-block w-100 rounded" src="Photo/rdr2.png">
             <div class="carousel-caption">
               <h2 class="text-left">Bounty Hunting and Showdown Mode Bonuses</h2>
@@ -73,17 +66,24 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100 rounded" src="Photo/bf5.jpg">
+            <img class="d-block w-100 rounded d-block mx-auto" src="Photo/division2.jpg">
             <div class="carousel-caption">
-              <h2 class="text-left">Battlefield V Chapter 6: Update #1</h2>
-              <p class="text-left pl-2">What’s new, what’s changed, and what’s fixed in Update 6.0 What’s New? <a href="#" style="text-decoration: none;" class="text-light font-weight-bold">More...</a></p>
+              <h2 class="text-left">Get The Division 2 For 95% Off As Major Expansion Announced</h2>
+              <p class="text-left pl-2">On March 3, Division 2 Agents will enter the new open world of Lower Manhattan in the Warlords of New York expansion <a href="#" style="text-decoration: none;" class="text-light font-weight-bold">More...</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 rounded" src="Photo/bf.png">
+            <div class="carousel-caption">
+              <h2 class="text-left">EA Teases Next Battlefield Game</h2>
+              <p class="text-left pl-2">Electronic Arts is starting to officially talk about the next major release in Battlefield, the popular online multiplayer shooter franchise <a href="#" style="text-decoration: none;" class="text-light font-weight-bold">More...</a></p>
             </div>
           </div>
           <div class="carousel-item">
             <img class="d-block w-100 rounded" src="Photo/rockstar.jpg">
             <div class="carousel-caption">
-              <h2 class="text-left">Rockstar Games is updating its website with mysterious new imagery</h2>
-              <p class="text-left pl-2">GTA 6, something new, or just a branding refresh? <a href="#" style="text-decoration: none;" class="text-light font-weight-bold">More...</a></p>
+              <h2 class="text-left">GTA 6 Map Leaks: Everything Confirmed & Debunked (So Far)</h2>
+              <p class="text-left pl-2">There have been a ton of rumors about GTA 6 map leaks and where the next game will take place, but players shouldn’t believe everything they hear <a href="#" style="text-decoration: none;" class="text-light font-weight-bold">More...</a></p>
             </div>
           </div>
           <div class="carousel-item">
@@ -128,44 +128,48 @@
         <div class="col-md-7">
           <div class="card mt-5">
             <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="card-img-top img-thumbnail" src="https://www.youtube.com/embed/O2W0N3uKXmo" frameborder="0" allowfullscreen></iframe>
+              <iframe id="if1" class="card-img-top img-thumbnail" src="https://www.youtube.com/embed/O2W0N3uKXmo" frameborder="0" allowfullscreen></iframe>
             </div>
               <div class="card-body">
                 <h5 class="card-title"><a style="text-decoration: none;" href="#">March 23 | Valve | Link | VR </a></h5>
                 <p class="d-inline card-text">They did it. The madmen, they did it. It’s not quite Half-Life 3, but it is a full length Half-Life game starring Alyx Vance, all played in VR, so it might as well be.</p>
+                <br>
                 <div class="d-inline cardfooter text-muted">Posted On 3/1/20</div>
               </div>
           </div>
           <br>
-          <div class="card">
+          <div id="crd1" class="card">
             <div class="embed-responsive embed-responsive-16by9">
               <iframe src="https://www.youtube.com/embed/bna8MPkJ9b8" frameborder="0" allowfullscreen></iframe>
             </div>
               <div class="card-body">
                 <h5 class="card-title"><a style="text-decoration: none;" href="#">Borderlands 3 Hotfix Update Out Now; Full Patch Notes Revealed</a></h5>
                 <p class="d-inline card-text">Developer Gearbox Software has released a brand-new Borderlands 3 hotfix update on PC, PlayStation 4, Google's Stadia cloud gaming service, and Xbox One. The patch addresses a number of community concerns, including progression issues, stuck enemies, weapon adjustments, and more, all of which is detailed in the full patch notes.</p>
+                <br>
                 <div class="d-inline cardfooter text-muted">Posted On 3/1/20</div>
               </div>
           </div>
           <br>
-          <div class="card">
+          <div id="crd2" class="card">
             <div class="embed-responsive embed-responsive-16by9">
               <iframe src="https://www.youtube.com/embed/3FKq0Ep6RI8" frameborder="0" allowfullscreen></iframe>
             </div>
               <div class="card-body">
                 <h5 class="card-title"><a style="text-decoration: none;" href="#">Everything We Know About Rainbow Six Siege Year 5: Oryx, Iana and Tachanka</a></h5>
                 <p class="d-inline card-text">Watch Oryx, the new Defender, utilize his explosive strength to crash through walls, knock down his opponents, and climb up through open floor hatches. Then try to spot the real Iana, as the new Attacker deploys her holographic clone to deceive and distract the defending team. Learn how </p>
+                <br>
                 <div class="d-inline cardfooter text-muted">Posted On 3/2/20</div>
               </div>
           </div>
           <br>
-          <div class="card">
+          <div id="crd3" class="card">
             <div class="embed-responsive embed-responsive-16by9">
               <iframe width="560" height="315" src="https://www.youtube.com/embed/JgPXMxW7zJk" frameborder="0" allowfullscreen></iframe>
             </div>
               <div class="card-body">
                 <h5 class="card-title"><a style="text-decoration: none;" href="#">Fortnite Chapter 2 Season 2 is live: Everything you need to know</a></h5>
                 <p class="d-inline card-text">Fortnite Chapter 2 Season 2 is officially here. Now known by its proper name of Top Secret, that means we have a brand new battle pass to grind through, new cosmetics to covet, and myriad map updates to explore, and inevitably get killed near. </p>
+                <br>
                 <div class="d-inline cardfooter text-muted">Posted On 3/3/20</div>
               </div>
           </div>
@@ -213,17 +217,20 @@
       			<div class="col-12"><a href="#" style="text-decoration: none;"><h5 class="text-center yazi font-weight-bold">Games Release Dates Full List</h5></a>
             <br>
             <h4 class="text-center text-dark font-weight-bold mybb mousePointer"><i class="fas fa-grip-lines-vertical text-danger mybb"></i> Top Upcoming Games</h4>
-              <div class="bg-bt py-2 mt-4 disabled games1">
-                <h4 class="text-center tx-wt" style="padding-left: 65px;">Final Fantasy VII Remake<i id="exit1" class="fas fa-times card-title tx-wt mousePointer" style="padding-left: 65px;"></i></h4>
-                <h5 class="text-muted ml-4">Coming Apr 10, 2020</h5>
+              <div class="bg-bt py-2 mt-4 disabled games3">
+                <h4 class="text-center text-white font-weight-bold">Payday 3<i id="exit1" class="fas fa-times card-title mousePointer" style="float:right; margin-right:0.5rem;"></i></h4>
+                <p class="text-muted ml-4" style="margin: 0;"><span class="text-info">Release date: </span>September 21, 2023</p>
+                <p class="text-muted ml-4"><span class="text-info">Platform(s): </span>PS5, PS4, Xbox Series X, Xbox One, PC</p>
+              </div>
+              <div class="bg-bt py-2 mt-1 disabled games1">
+                <h4 class="text-center text-white font-weight-bold">Assassin's Creed Mirage<i id="exit1" class="fas fa-times card-title mousePointer" style="float:right; margin-right:0.5rem;"></i></h4>
+                <p class="text-muted ml-4" style="margin: 0;"><span class="text-info">Release date: </span>October 12, 2023</p>
+                <p class="text-muted ml-4"><span class="text-info">Platform(s): </span>PS4, PS5, Xbox One, Xbox Series X/S</p>
               </div>
               <div class="bg-bt py-2 mt-1 disabled games2">
-                <h4 class="text-center tx-wt" style="padding-left: 108px;">Cyberpunk 2077<i id="exit2" class="fas fa-times card-title tx-wt mousePointer" style="padding-left: 108px;"></i></h4>
-                <h5 class="text-muted ml-4">Coming Sep 17, 2020</h5>
-              </div>
-              <div class="bg-bt py-2 mt-1 disabled games3">
-                <h4 class="text-center tx-wt" style="padding-left: 87px;">The Last of Us Part II<i id="exit3" class="fas fa-times card-title tx-wt mousePointer" style="padding-left: 87px;"></i></h4>
-                <h5 class="text-muted ml-4">Coming May 29, 2020</h5>
+                <h4 class="text-center text-white font-weight-bold"">Marvel's Spider-Man 2<i id="exit1" class="fas fa-times card-title mousePointer" style="float:right; margin-right:0.5rem;"></i></h4>
+                <p class="text-muted ml-4" style="margin: 0;"><span class="text-info">Release date: </span>October 20, 2023</p>
+                <p class="text-muted ml-4"><span class="text-info">Platform(s): </span>PS5</p>
               </div>
       				</div>
             </div>
@@ -281,8 +288,6 @@
               <div class="col-7 "><a style="text-decoration:none;" class="yazi font-weight-bold" href="#">Xbox Series X will use audio ray tracing for super-realistic soundscapes</a>
     				</div>
             </div>
-
-
           </div>
         </div>
       </div>
@@ -445,7 +450,7 @@
 
                           <!-- Reviews End  -->
                           
-<footer id="more" class="py-4 mt-5 bg-bt tx-wt text-center" class="paged">
+<footer id="more" class="py-4 mt-5 bg-bt text-white text-center" class="paged">
 
                           <!-- Collapse -->
 
@@ -454,38 +459,40 @@
     <div class="container">
       <div class="row">
         <div class="col-md-3 mt-3">
-          <a class="navbar-brand tx-wt" href="#">Dolliet <i class="fas fa-hand-lizard"></i></a>
+          <a class="navbar-brand text-white" href="#">Dolliet <i class="fas fa-hand-lizard"></i></a>
             <hr class="line mousePointer">
             <p class="text-left">Dolliet is a community of ​​​gamers​​​ posting the latest game news and Also adds Turkish subtitles to game trailers</p>
-            <h5 class="text-left font-weight-bold tx-wt">Mode <i class="fas fa-toggle-off chan2 mousePointer"></i></h5>
-            <div class="d-inline cardfooter text-muted">Website Create On 2/29/20 - 11.46</div>
-            <div class="d-inline cardfooter text-muted">Website Finish On 3/8/20 - 7.38</div>
+            <h5 class="text-left font-weight-bold text-white">Mode <i class="fas fa-toggle-off chan2 chnclc mousePointer"></i></h5>
+            <div class="d-inline cardfooter text-muted">Website Create on 2/29/20 - 11.46</div><br>
+            <div class="d-inline cardfooter text-muted">Website Finish on 3/8/20 - 7.38</div><br>
+            <div class="d-inline cardfooter text-muted">Site Update Start on 7.29.23 - 12.11</div><br>
+            <div class="d-inline cardfooter text-muted">Site Update Finish on 3/8/20 - 7.38</div><br>
         </div>
         <div class="col-md-3 mt-3">
-          <a class="navbar-brand tx-wt" href="#">Top Games <i class="fas fa-dragon"></i></a>
+          <a class="navbar-brand text-white" href="#">Top Games <i class="fas fa-dragon"></i></a>
             <hr class="line mousePointer">
-            <p class="text-left"><a class="mr-2 btn btn-success btn-sm" href="">99</a> Cyberpunk 2077</p>
             <p class="text-left"><a class="mr-2 btn btn-success btn-sm" href="#">97</a> Red Dead Redemption 2 </p>
             <p class="text-left"><a class="mr-2 btn btn-success btn-sm" href="#">96</a> Grand Theft Auto V</p>
-            <p class="text-left"><a class="mr-2 btn btn-success btn-sm" href="#">93</a> Witcher 3 Wild Hunt</p>
-            <p class="text-left"><a class="mr-2 btn btn-warning btn-sm" href="#">82</a> Watch_Dogs® 2</p>
+            <p class="text-left"><a class="mr-2 btn btn-success btn-sm" href="#">93</a> The Last of Us Part II</p>
+            <p class="text-left"><a class="mr-2 btn btn-success btn-sm" href="">86</a> Cyberpunk 2077</p>
+            <p class="text-left"><a class="mr-2 btn btn-warning btn-sm" href="#">76</a> Watch Dogs: Legion</p>
             <div class="d-inline cardfooter text-muted">(Scoring taken from metacritic data)</div>
         </div>
         <div class="col-md-3 mt-3">
-          <a class="navbar-brand tx-wt" href="#">Admins <i class="fas fa-users-cog"></i></a>
+          <a class="navbar-brand text-white" href="#">Admins <i class="fas fa-users-cog"></i></a>
             <hr class="line mousePointer">
-            <p class="text-left font-weight-bold tx-wt mousePointer opa">Tamer Akipek <i class="fas fa-crown"></i></p>
-            <p class="text-left font-weight-bold tx-wt mousePointer opa">Efe Akipek <i class="fas fa-chess-queen"></i></p>
+            <p class="text-left font-weight-bold text-white mousePointer opa">Tamer Akipek <i class="fas fa-crown"></i></p>
+            <p class="text-left font-weight-bold text-white mousePointer opa">Efe Akipek <i class="fas fa-chess-queen"></i></p>
         </div>
-        <div class="col-md-3 mt-3">
-          <a class="navbar-brand tx-wt" href="#">Help & Info <i class="fas fa-tools"></i></a>
+        <div class="col-md-3 mt-3 text-white">
+          <a class="navbar-brand text-white" href="#">Help & Info <i class="fas fa-tools"></i></a>
             <hr class="line mousePointer">
-            <p class="text-left font-weight-bold tx-wt mousePointer opa">About</p>
-            <p class="text-left font-weight-bold tx-wt mousePointer opa">Contact / Feedback</p>
-            <p class="text-left font-weight-bold tx-wt mousePointer opa">Help & FAQ</p>
-            <p class="text-left font-weight-bold tx-wt mousePointer opa">Forum</p>
-            <p class="text-left font-weight-bold tx-wt mousePointer opa">Best Of</p>
-            <p class="text-left font-weight-bold tx-wt mousePointer opa">E-spor</p>
+            <p class="text-left font-weight-bold mousePointer opa">About</p>
+            <p class="text-left font-weight-bold mousePointer opa">Contact / Feedback</p>
+            <p class="text-left font-weight-bold mousePointer opa">Help & FAQ</p>
+            <p class="text-left font-weight-bold mousePointer opa">Forum</p>
+            <p class="text-left font-weight-bold mousePointer opa">Best Of</p>
+            <p class="text-left font-weight-bold mousePointer opa">E-spor</p>
         </div>
 
       </div>
@@ -495,7 +502,7 @@
                         <!-- Collapse End -->
 
 
- <a href="#collapse" data-toggle="collapse"><i class="fas fa-angle-double-down tx-wt chan4"></i></a>
+ <a href="#collapse" data-toggle="collapse"><i class="fas fa-angle-double-down text-white chan4 btnchn"></i></a>
 </footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
