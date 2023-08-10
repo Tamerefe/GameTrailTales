@@ -1,5 +1,7 @@
 const express = require("express")
 const app = express()
+const mysql = require("mysql2")
+const config = require("./db/config")
 
 app.set("view engine","ejs")
 
@@ -31,9 +33,18 @@ app.use("/", (req, res) => {
     res.render("Blog")
 });
 
-app.listen(3000, () => {
-    console.log("listening");
+app.listen(1212, () => {
+    console.log("Working..");
 });
+
+let connection = mysql.createConnection(config.db);
+
+connection.connect(function(err){
+    if(err) {
+        console.log(err);
+    }
+    console.log("work mysql");
+})
 
 
 
