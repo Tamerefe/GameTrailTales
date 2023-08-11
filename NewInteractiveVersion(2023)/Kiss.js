@@ -44,17 +44,6 @@ function startTime() {
 
 									   //Clock End
 
-// $(document).ready(function(){
-// 	$("i.chan2").click(function(){
-// 		$(".chan2").toggleClass("fa-toggle-on");
-// 		$(".bg-dark").toggleClass("bg-light");
-// 		$(".bg-light").toggleClass("bg-dark");
-// 		$(".text-light").toggleClass("text-dark");
-// 		$(".text-dark").toggleClass("text-light");
-// 		$(".page").toggleClass("paged");
-// 	});
-// });
-
 // 2023
 
 $("i.chnclc").click(function(){
@@ -140,3 +129,17 @@ $("i.chan5").click(function(){
 
 console.log(document.querySelector('#crd1').getElementsByTagName('div')[1].children[3]);
 
+$(function() {
+	// Get page title
+	var pageTitle = $("title").text();
+	
+	// Change page title on blur
+	$(window).blur(function() {
+	  $("title").text("I waiting for you here 🥺");
+	});
+	
+	// Change page title back on focus
+	$(window).focus(function() {
+	  $("title").text(pageTitle);
+});
+});
