@@ -17,8 +17,15 @@ app.use("/gamecalendar", function(req, res) {
     res.render("Gcalendar");
 });
 
-app.use("/login", function(req, res) {
+app.use("/login", async function(req, res) {
     res.render("LoginPage");
+
+    try {
+        const [usrs, ] = await data.execute("select * from users")
+        console.log(usrs[0]);
+    } catch(err) {
+        console.log(err);
+    }
 });
 
 app.use("/signup", function(req, res) {
@@ -31,14 +38,6 @@ app.use("/reset", function(req, res) {
 
 app.use("/", (req, res) => {
     res.render("Blog")
-    data.execute("select * from users").then(result =>{
-        console.log(result);
-
-        res.render("index"),{
-            usser: result
-        }
-    })
-    .catch(err => console.log(err));
 });
 
 app.listen(1212, () => {

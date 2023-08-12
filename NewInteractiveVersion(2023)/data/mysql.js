@@ -7,7 +7,7 @@ connection.connect(function(err){
     if(err) {
         console.log(err);
     }
-    console.log("work mysql");
+    console.log("Work mysql");
 })
 
 module.exports = connection.promise();
