@@ -1,7 +1,7 @@
 const express = require("express")
 const app = express()
-const mysql = require("mysql2")
-const config = require("./db/config")
+const data = require("./data/mysql")
+
 
 app.set("view engine","ejs")
 
@@ -31,22 +31,18 @@ app.use("/reset", function(req, res) {
 
 app.use("/", (req, res) => {
     res.render("Blog")
+    data.execute("select * from users").then(result =>{
+        console.log(result);
+
+        res.render("index"),{
+            usser: result
+        }
+    })
+    .catch(err => console.log(err));
 });
 
 app.listen(1212, () => {
     console.log("Working..");
 });
-
-let connection = mysql.createConnection(config.db);
-
-connection.connect(function(err){
-    if(err) {
-        console.log(err);
-    }
-    console.log("work mysql");
-})
-
-
-
               
 

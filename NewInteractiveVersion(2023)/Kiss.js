@@ -143,3 +143,5 @@ $(function() {
 	  $("title").text(pageTitle);
 });
 });
+
+let rstcd = Math.floor(10000 + Math.random() * 90000)
