@@ -145,3 +145,13 @@ $(function() {
 });
 
 let rstcd = Math.floor(10000 + Math.random() * 90000)
+
+function formsubmitFunction(){
+	const users = {
+		username: document.getElementById("usrnm").value,
+		userpassword: document.getElementById("pswrdus").value
+	}
+}
+
+
+
