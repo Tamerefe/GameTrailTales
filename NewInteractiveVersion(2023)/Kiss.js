@@ -130,28 +130,15 @@ $("i.chan5").click(function(){
 console.log(document.querySelector('#crd1').getElementsByTagName('div')[1].children[3]);
 
 $(function() {
-	// Get page title
 	var pageTitle = $("title").text();
 	
-	// Change page title on blur
 	$(window).blur(function() {
 	  $("title").text("I waiting for you here 🥺");
 	});
 	
-	// Change page title back on focus
 	$(window).focus(function() {
 	  $("title").text(pageTitle);
 });
 });
 
 let rstcd = Math.floor(10000 + Math.random() * 90000)
-
-function formsubmitFunction(){
-	const users = {
-		username: document.getElementById("usrnm").value,
-		userpassword: document.getElementById("pswrdus").value
-	}
-}
-
-
-
