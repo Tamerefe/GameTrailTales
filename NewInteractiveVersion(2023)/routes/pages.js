@@ -11,57 +11,72 @@ global.document = document;
 var $ = jQuery = require('jquery')(window);
 
 router.use("/reviews:rwsno", function(req, res) {
-    res.render("Reviews"+req.params.rwsno);
+    res.render("Reviews"+req.params.rwsno , { title: 'Express', session : req.session });
 });
 
 router.use("/gamecalendar", function(req, res) {
-    res.render("Gcalendar");
+    res.render("Gcalendar" , { title: 'Express', session : req.session });
 });
 
 router.get("/login", function(req, res) {
-    res.render("LoginPage");
-
-    // try {
-
-        //         const [usrs, ] = await data.execute("select * from users") 
-        //         console.log(usrs);
-
-        //         let text = $("#usrnm").name;
-        //         let psw = $("#pswrdus").name;
-        //         console.log(text,psw);
-        //         for (let i = 0; i < usrs.length; i++) {
-        //             if (text === usrs[i].iduser){
-        //             if (psw === usrs[i].passworduser){
-        //                 console.log("welcome");
-        //             } else {
-        //                 console.log("your password is wrong");
-        //             }
-        //             } 
-        //         }
-        // });
-    // });
-
-    // } catch(err) {
-    //     console.log(err);
-    // }
-
+    res.render("LoginPage", { title: 'Express', session : req.session });
 });
 
-router.post("/login", express.urlencoded(), function(req, res) {
-    res.render("LoginPage");
-    console.log(req.body);
+router.post("/login", express.urlencoded(), async function(req, res) {
+
+    let lgnnm = 0
+
+    // SESSION OLAYI BOZUK ONU HALLET
+    console.log(req.session);
+
+    try {
+        const [usrs, ] = await data.execute("select * from users") 
+        for (let i = 0; i < usrs.length; i++) {
+            if (req.body.name === usrs[i].iduser || req.body.name === usrs[i].mailuser){
+                if (req.body.password === usrs[i].passworduser){
+                    lgnnm = 1;
+                }
+            }
+        } if (lgnnm == 1){
+            res.redirect("/");
+        } else {
+            res.redirect("/login");
+        }
+    } catch(err) {
+        console.log(err);
+    }
 });
 
 router.use("/signup", function(req, res) {
-    res.render("Signup");
+    res.render("Signup" , { title: 'Express', session : req.session });
 });
 
-router.use("/reset", function(req, res) {
-    res.render("PswRst");
+router.get("/reset", function(req, res) {
+    res.render("PswRst" , { title: 'Express', session : req.session });
+});
+
+router.post("/reset", express.urlencoded(), async function(req, res) {
+
+    let rstnm = 0
+    
+    try {
+        const [usrs, ] = await data.execute("select * from users") 
+        for (let i = 0; i < usrs.length; i++) {
+            if (req.body.email === usrs[i].mailuser){
+                rstnm = 1
+            }
+        } if (rstnm == 1){
+            res.render("ResetCode");
+        } else {
+            res.redirect("/reset");
+        }
+    } catch(err) {
+        console.log(err);
+    }
 });
 
 router.use("/", (req, res) => {
-    res.render("Blog")
+    res.render("Blog" , { title: 'Express', session : req.session })
 });
 
 module.exports = router;
