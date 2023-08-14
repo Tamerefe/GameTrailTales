@@ -42,7 +42,40 @@
         </div>
     </nav>
 
-                          <!-- Reviews End  -->
+                                            <!-- MODAL -->
+	<div class="modal fade" id="modall">
+		<div class="modal-dialog modal-sm modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title">Radiation Risk <i class="fas fa-biohazard"></i></h4>
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+				<div class="modal-body font-weight-bold">
+					Radiation spread to this tab as a result of a minor accident. <br> We are working on it, we will clean it very soon
+				</div>
+				<div class="modal-footer">
+					<button class="btn btn-danger" type="button" data-dismiss="modal">Run <i class="fas fa-running"></i></button>
+				</div>
+			</div>
+		</div>
+	</div>
+                  <!-- MODAL END  -->
+
+
+  <div class="mt-5" style="text-align: center;">
+    <div class="mt-5" id="dialog">
+      <h3>Please enter the 5-digit verification code we sent via SMS:</h3>
+      <form>
+        <input class="resetinput" type="text" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
+        <input class="resetinput" type="text" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
+        <input class="resetinput" class="resetinput"type="text" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
+        <input class="resetinput" type="text" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
+        <input class="resetinput" type="text" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
+        <button type="submit" class="form-control btn btn-warning rounded submit px-3 mt-3">Verify</button>
+      </form>
+    </div>
+  </div>
+
                           
 <footer id="more" class="py-4 mt-5 bg-bt text-white text-center" class="paged">
 
@@ -94,7 +127,6 @@
   </div>
 
                         <!-- Collapse End -->
-
 
  <a href="#collapse" data-toggle="collapse"><i class="fas fa-angle-double-down text-white chan4 btnchn"></i></a>
 </footer>
