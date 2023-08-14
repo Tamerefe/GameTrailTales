@@ -51,14 +51,14 @@ router.use("/signup", function(req, res) {
     res.render("Signup" , { title: 'Express', session : req.session });
 });
 
+let rstnm = 0
+
 router.get("/reset", function(req, res) {
-    res.render("PswRst" , { title: 'Express', session : req.session });
+    res.render("PswRst", { title: 'Express', session : req.session, rst: rstnm});
 });
 
 router.post("/reset", express.urlencoded(), async function(req, res) {
 
-    let rstnm = 0
-    
     try {
         const [usrs, ] = await data.execute("select * from users") 
         for (let i = 0; i < usrs.length; i++) {
@@ -67,7 +67,9 @@ router.post("/reset", express.urlencoded(), async function(req, res) {
             }
         } if (rstnm == 1){
             res.render("ResetCode");
+            rstnm = 0
         } else {
+            rstnm = 1
             res.redirect("/reset");
         }
     } catch(err) {
