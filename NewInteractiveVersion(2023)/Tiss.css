@@ -3,8 +3,10 @@
 
 #clock {
   font-family: 'Orbitron', sans-serif;
-  font-size: 32px;
+  font-size: 2rem;
   text-align: center;
+  border-radius: 0.75rem;
+  box-shadow: 0 0 20px #333;
 }
 
 .clock{
@@ -15,6 +17,17 @@
 .clock2{
 	letter-spacing: 5px;
 	color: #fff;
+}
+
+.clock3{
+	padding-bottom: 4px;
+	background-color: #343a40 !important;
+	margin-left: 40px;
+	margin-right: 40px;
+	padding-left: 145px;
+	padding-top: 5px;
+	box-shadow: 0 0 20px #333;
+	border-radius: 0rem 0rem 0.75rem 0.75rem;
 }
 
 											/* Rainbow */
@@ -111,42 +124,6 @@ body {
 
 .mousePointer{
 	cursor: pointer;
-}
-
-.steam{
-	color:#00adee;
-}
-
-.xbox{
-	color:#0e7a0d;
-}
-
-.playstation{
-	color:#0000ff;
-}
-
-.twitch{
-	color:#8a3ab9;
-}
-
-.youtube{
-	color:#ff0000;
-}
-
-.facebook{
-	color:#4267B2;
-}
-
-.discord{
-	color:#7289da;
-}
-
-.twitter{
-	color:#1da1f2;
-}
-
-.telegram{
-	color:#0088cc;
 }
 
 body{
@@ -303,4 +280,9 @@ hr.line:hover{
 
 .resetinput::selection {
 	background: transparent;
+}
+
+.pageH {
+	font-family: 'Itim', cursive;
+	text-align: center;
 }
