@@ -52,6 +52,7 @@ router.use("/signup", function(req, res) {
 });
 
 let rstnm = 0
+let rstcde = Math.floor(10000 + Math.random() * 90000)
 
 router.get("/reset", function(req, res) {
     res.render("PswRst", { title: 'Express', session : req.session, rst: rstnm});
@@ -66,7 +67,7 @@ router.post("/reset", express.urlencoded(), async function(req, res) {
                 rstnm = 1
             }
         } if (rstnm == 1){
-            res.render("ResetCode");
+            res.render("ResetCode", { title: 'Express', session : req.session, rstcd: rstcde} );
             rstnm = 0
         } else {
             rstnm = 1

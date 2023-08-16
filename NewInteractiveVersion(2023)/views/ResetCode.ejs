@@ -64,21 +64,21 @@
 
   <div class="mt-5" style="text-align: center;">
     <div class="mt-5" id="dialog">
-      <h3>Please enter the 5-digit verification code we sent via SMS:</h3>
-      <form>
+      <h3>Please enter the 5-digit verification code we sent: <%= rstcd %></h3>
+      <form id="codenum">
         <input class="resetinput" type="text" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
         <input class="resetinput" type="text" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
-        <input class="resetinput" class="resetinput"type="text" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
         <input class="resetinput" type="text" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
         <input class="resetinput" type="text" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
-        <button type="submit" class="form-control btn btn-warning rounded submit px-3 mt-3">Verify</button>
+        <input class="resetinput" type="text" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
+        <button type="submit" value="Exit" name="submit" class="form-control btn btn-warning rounded submit px-3 mt-3">Verify</button>
       </form>
     </div>
   </div>
 
-                          
-<footer id="more" class="py-4 mt-5 bg-bt text-white text-center" class="paged">
 
+<footer id="more" class="py-4 mt-5 bg-bt text-white text-center" class="paged">
+  
                           <!-- Collapse -->
 
   <div id="collapse" class="collapse">
