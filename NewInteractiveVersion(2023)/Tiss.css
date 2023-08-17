@@ -9,37 +9,20 @@
 }
 
 .clock {
-  letter-spacing: 5px;
-  color: #66ff99;
-}
-
-.clock2 {
-  letter-spacing: 5px;
-  color: #fff;
-}
-
-.clock3 {
-  padding-bottom: 4px;
-  background-color: #343a40 !important;
+  box-shadow: 0 0 20px #333;
   margin-left: 40px;
   margin-right: 40px;
   padding-left: 145px;
   padding-top: 5px;
-  box-shadow: 0 0 20px #333;
+  padding-bottom: 4px;
   border-radius: 0rem 0rem 0.75rem 0.75rem;
 }
 
-/* Rainbow */
-/* .rainbow {
-text-align: center;
-text-decoration: underline;
-font-size: 32px;
-font-family: monospace;
-letter-spacing: 5px;
-animation: colorRotate 6s linear 0s infinite;
- } */
+.clock {
+  color: #66ff99;
+}
+
 .rainbow {
-  letter-spacing: 5px;
   animation: colorRotate 6s linear 0s infinite;
 }
 
@@ -78,23 +61,19 @@ body {
 }
 
 .dot {
-  height: 4rem;
   width: 4rem;
+  height: 4rem;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
 }
 
-.navbar {
+.navbar, .imgo:hover {
   opacity: 0.9;
 }
 
 .sign {
   font-family: "Itim", cursive;
-}
-
-.page {
-  background-color: #ededed;
 }
 
 .paged {
@@ -145,25 +124,11 @@ body {
   color: #343a40;
 }
 
-.imgo:hover {
-  opacity: 0.9;
-}
-
-hr.lineb {
+hr.lineb, hr.line {
   border: 3px solid #343a40;
   border-radius: 5px;
 }
-
-hr.lineb:hover {
-  opacity: 0.7;
-}
-
-hr.line {
-  border: 3px solid #f8f9fa;
-  border-radius: 5px;
-}
-
-hr.line:hover {
+hr.lineb:hover, hr.line:hover {
   opacity: 0.7;
 }
 
@@ -193,29 +158,26 @@ hr.line:hover {
   align-items: center;
   background-color: #FCFCFD;
   border-width: 0;
-  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
-  box-sizing: border-box;
   color: #36395A;
   display: inline-flex;
   font-family: "JetBrains Mono", monospace;
   height: 2rem;
   justify-content: center;
   overflow: hidden;
+  transition: box-shadow 0.15s, transform 0.15s;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
   position: relative;
-  transition: box-shadow 0.15s, transform 0.15s;
 }
-
 .button-30:focus {
   box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
 }
-
 .button-30:hover {
   box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
   transform: translateY(-2px);
 }
-
 .button-30:active {
   box-shadow: #D6D6E7 0 3px 7px inset;
   transform: translateY(2px);
@@ -243,16 +205,13 @@ hr.line:hover {
   transition: all 0.2s ease-in-out;
   border-radius: 3px;
 }
-
 .resetinput:focus {
   border-color: purple;
   box-shadow: 0 0 5px purple inset;
 }
-
 .resetinput::-moz-selection {
   background: transparent;
 }
-
 .resetinput::selection {
   background: transparent;
 }

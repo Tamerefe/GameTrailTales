@@ -4,51 +4,44 @@
 $gray-b : #333;
 $white : #fff;
 
+@mixin measur($wd,$hg){
+	width: $wd;
+	height: $hg;
+}
+
 #clock {
-  font-family: 'Orbitron', sans-serif;
-  font-size: 2rem;
+	font: {
+		family: 'Orbitron', sans-serif;
+  		size: 2rem;
+	}
+  
   text-align: center;
   border-radius: 0.75rem;
   box-shadow: 0 0 20px $gray-b;
 }
 
-.clock{
-	letter-spacing: 5px;
-	color: #66ff99;
-}
-
-.clock2{
-	letter-spacing: 5px;
-	color: $white;
-}
-
-.clock3{
-	padding-bottom: 4px;
-	background-color: #343a40 !important;
-	margin-left: 40px;
-	margin-right: 40px;
-	padding-left: 145px;
-	padding-top: 5px;
+%clock-a {
 	box-shadow: 0 0 20px $gray-b;
+	margin: {
+		left: 40px;
+		right: 40px;
+	}
+	padding: {
+		left: 145px;
+		top: 5px;
+		bottom: 4px;
+	}
 	border-radius: 0rem 0rem 0.75rem 0.75rem;
 }
 
-											/* Rainbow */
-
+.clock {
+	color: #66ff99;
+	@extend %clock-a;
+}
   
-  /* .rainbow {
-	text-align: center;
-	text-decoration: underline;
-	font-size: 32px;
-	font-family: monospace;
-	letter-spacing: 5px;
+.rainbow {
 	animation: colorRotate 6s linear 0s infinite;
-  } */
-  
-  .rainbow {
-	letter-spacing: 5px;
-	animation: colorRotate 6s linear 0s infinite;
-  }
+}
   
   @keyframes colorRotate {
 	from {
@@ -86,14 +79,13 @@ body {
 }
 
 .dot {
-	height: 4rem;
-	width: 4rem;
+	@include measur(4rem,4rem);
 	background-color: #bbb;
 	border-radius: 50%;
 	display: inline-block;
 }
 
-.navbar{
+.navbar, .imgo:hover{
 	opacity: 0.9;
 }
 
@@ -101,16 +93,12 @@ body {
 	font-family: 'Itim', cursive;
 }
 
-.page{
-  background-color: #ededed;
-} 
-
 .paged{
 	background-color: #343a40;
-  }
+}
 
 .yazi{
- color: #343a40;
+	color: #343a40;
 }
 
 .yazi2{
@@ -118,7 +106,7 @@ body {
 }
 
 .yazi:hover, .yazi2:hover{
-  color: #dc3545;
+	color: #dc3545;
 }
 
 .mousePointer{
@@ -153,26 +141,13 @@ body {
 	color: #343a40;
 }
 
-.imgo:hover{
-	opacity: 0.9;
-}
+hr.lineb, hr.line {
+	border: 3px solid #343a40;
+	border-radius: 5px;
 
-hr.lineb{
-  border: 3px solid #343a40;
-  border-radius: 5px;
-}
-
-hr.lineb:hover{
-	opacity: 0.7;
-}
-
-hr.line {
-  border: 3px solid #f8f9fa;
-  border-radius: 5px;
-}
-
-hr.line:hover{
-	opacity: 0.7;
+  	&:hover{
+		opacity: 0.7;
+	}
 }
 
 #exit1:hover, #exit2:hover, #exit3:hover {
@@ -201,32 +176,37 @@ hr.line:hover{
   align-items: center;
   background-color: #FCFCFD;
   border-width: 0;
-  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
-  box-sizing: border-box;
   color: #36395A;
   display: inline-flex;
   font-family: "JetBrains Mono",monospace;
   height: 2rem;
   justify-content: center;
   overflow: hidden;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  position: relative;
   transition: box-shadow .15s,transform .15s;
-}
+  padding : {
+	left: 0.5rem;
+	right: 0.5rem;
+  };
+  box : {
+	shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+	sizing: border-box;
+  };
+  position: relative;
 
-.button-30:focus {
-  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
-}
+  &:focus {
+	box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  }
 
-.button-30:hover {
-  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
-  transform: translateY(-2px);
-}
+  &:hover {
+	box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+	transform: translateY(-2px);
+  }
 
-.button-30:active {
-  box-shadow: #D6D6E7 0 3px 7px inset;
-  transform: translateY(2px);
+  &:active {
+	box-shadow: #D6D6E7 0 3px 7px inset;
+	transform: translateY(2px);
+  }
+
 }
 
 #dialog {
@@ -250,16 +230,17 @@ hr.line:hover{
 	outline: none;
 	transition: all .2s ease-in-out;
 	border-radius: 3px;
+
+	&:focus {
+		border-color: purple;
+		box-shadow: 0 0 5px purple inset;
+	}
+
+	&::selection {
+		background: transparent;
+	}	
+
 } 
-
-.resetinput:focus {
-	border-color: purple;
-	box-shadow: 0 0 5px purple inset;
-}
-
-.resetinput::selection {
-	background: transparent;
-}
 
 .pageH {
 	font-family: 'Itim', cursive;

@@ -36,9 +36,11 @@ function startTime() {
   $(document).ready(function(){
 	$("i.chan").click(function(){
 		$(".clock").toggleClass("rainbow");
+		$(".clock").prev().toggleClass("rainbow")
 	});
 	$("i.chan").dblclick(function(){
 		$(".clock").toggleClass("clock2");
+		$(".clock").prev().toggleClass("clock2")
 	});
 });
 
