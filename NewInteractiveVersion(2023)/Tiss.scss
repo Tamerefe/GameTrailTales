@@ -14,24 +14,32 @@ $white : #fff;
 		family: 'Orbitron', sans-serif;
   		size: 2rem;
 	}
-  
+  padding: 3px;
   text-align: center;
   border-radius: 0.75rem;
   box-shadow: 0 0 20px $gray-b;
 }
 
 %clock-a {
-	box-shadow: 0 0 20px $gray-b;
+	box-shadow: 0 2px 20px $gray-b;
 	margin: {
 		left: 40px;
-		right: 40px;
 	}
 	padding: {
 		left: 145px;
 		top: 5px;
 		bottom: 4px;
+		right: 8px;
 	}
 	border-radius: 0rem 0rem 0.75rem 0.75rem;
+}
+
+.clck {
+	margin: {
+		left: 100px;
+		right: 100px;
+	}
+	color: #66ff99;
 }
 
 .clock {
