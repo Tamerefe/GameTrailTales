@@ -5,7 +5,7 @@ GameTrailTales is not just a gaming blog site; it's a journey into the realms of
 **Website Created:** February 29, 2020 - 11:46
 **Website Finished:** March 8, 2020 - 7:38
 **Site Update Started:** July 29, 2023 - 12:11
-**Site Update Finished:** March 8, 2020 - 7:38
+**Site Update Finished:** March 8, 2023 - 7:38
 
 ## Home
 

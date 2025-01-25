@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="Tiss.css" />
+    <link rel="icon" type="image/x-icon" href="Photo/dudtled.png">
+
+    <title>Dolliet</title>
+
+</head>
+
+<body>
+
+    <%- include('partials/navbar') %>
+
+    <h1 class="menupage button-text" style="margin-top: 5rem;">Click Power Test</h1>
+    <div class="menupage button-text" style="margin-top: 10%;">
+        <input class="button-text" id="btext" style="border:none; width: 50px; background-color: #000;"></input>
+    </div>
+
+    <div id="myProgress">
+        <div id="myBar"></div>
+    </div>
+    <div class="menupage">
+        <button class="button" id="hold" value="mouse-hold" align="center">
+            <div class="-button">
+            </div>
+        </button>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        var setint = '';
+            $(document).ready(function () {
+                var val = 0;
+                $('#hold').on('mousedown', function (e) {
+                    clearInterval(setint);
+                    val = 0;
+                    setint = setInterval(function () {
+                        $("#btext").val(++val);
+                        $("#myBar").val(++val).css('width', val + "%");
+                        $("#btext").val(--val);
+                        if (val > 100) {
+                            alert("You are over 100, you failed the goal");
+                            val = -100;
+                        }
+                    }, 50);
+                });
+                $('#hold').on("mouseleave mouseup", function () {
+                    $("#btext").val(val);
+                    clearInterval(setint);
+                });
+            });
+    </script>
+</body>
+
+</html>
